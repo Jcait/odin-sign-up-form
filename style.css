@@ -50,3 +50,9 @@ button {
 section {
     box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);
 }
+
+
+.left img {
+    width: 100%;
+    height: 80%;
+}
