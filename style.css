@@ -49,10 +49,15 @@ button {
     color: white;
 }
 section {
+    color: #6f95d8;
     box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);
     background: #f6f9fd;
     padding-top: 10px;
     padding-left: 30px;
+}
+
+section > h2 {
+    padding-top: 1rem;
 }
 
 
@@ -67,11 +72,18 @@ section {
 }
 
 .form-headers {
-    width: 55rem;
+    color: #234580;
+    width: 40rem;
     padding-left: 30px;
 }
 
 .form-footer {
     padding-left: 30px;
 }
+
+.form-headers > h2 {
+    padding: 1.1rem 0;
+}
+
+
 
