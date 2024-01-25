@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+div {
+    width: 50%;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 50%;
+}
+
+p {
+    display: inline-block;
+    width: 35%;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+input {
+    height: 1.5rem;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: #fcfcfc;
+}
+
+
+button {
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    background: #009ACD;
+    border-radius: 5px;
+    color: white;
+}
+section {
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.68);
+}
