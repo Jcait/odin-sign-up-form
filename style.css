@@ -65,6 +65,7 @@ section > h2 {
     background-image: url(moon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 5%;
 }
 
 .sign-up {
