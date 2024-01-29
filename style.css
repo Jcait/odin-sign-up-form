@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     /* Photo by Dave Hoefler on Unsplash */
     margin: 0;
+    font-family: 'Manrope', sans-serif;
 }
 div {
     width: 50%;
