@@ -40,14 +40,19 @@ input {
     background: #fcfcfc;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
+
 
 button {
     margin-top: 30px;
-    padding: 10px 50px;
+    padding: 10px 4rem;
     border: none;
     background: #009ACD;
     border-radius: 5px;
     color: white;
+    font-size: 2rem;
 }
 section {
     color: #6f95d8;
@@ -99,6 +104,10 @@ section > h2 {
     margin-top: 8%;
     padding-right: 20px;
     font-family: 'Sixtyfour', sans-serif;
+}
+
+input:focus {
+    box-shadow: 3px 7px 5px -6px rgba(0,0,0,0.75);
 }
 
 
