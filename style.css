@@ -1,11 +1,4 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
+
 
 body {
     display: flex;
@@ -20,6 +13,7 @@ div {
 .sign-up {
     display: flex;
     align-items: center;
+    width: 60%;
 }
 
 .inputs {
