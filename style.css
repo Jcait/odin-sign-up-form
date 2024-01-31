@@ -23,7 +23,6 @@ div {
 
 p {
     display: inline-block;
-    width: 35%;
 }
 
 label {
@@ -68,10 +67,15 @@ section > h2 {
 
 
 .left {
+    display: flex;
     background-image: url(moon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sign-up {
